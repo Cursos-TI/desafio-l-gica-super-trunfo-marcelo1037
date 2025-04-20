@@ -1,0 +1,67 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+
+    // Dados do Brasil
+
+char Pais[30] = "Brasil";
+char Carta[30] = "A01";
+char Estado[30] = "Pernambuco";
+float Populacao = 211.1;
+float Area = 8.510000;
+float Pib =2.1740;
+int Pontosturisticos = 335;
+
+    // Dados da Argentina
+
+char Pais1[30] = "Argentina";
+char Carta1[30] = "A02";
+char Estado1[30] = "Buenos Aires";
+float Populacao1 = 46.7;
+float Area1 = 2.78000;
+float Pib1 = 646.1;
+float Pontosturisticos1 = 220;
+
+char escolha[30];
+
+printf("Digite o Pais?(Brasil ou Argentina): \n");
+scanf("%s", escolha);
+
+if (strcmp(escolha, "Brasil") == o){
+    printf("Carta: %s\n",Carta);
+} else if (strcmp(escolha, "Argentina") == 0) {
+    printf("Carta: %s\n", Carta1);
+} else {
+    printf("Pais invalido. \n");
+
+    // Comparações
+
+if (Populacao > Populacao1) {
+    printf("A População do Brasil é de 211,1 Milhões de Habitantes. \n");
+} else {
+    printf("A População da Argentina é de 46,7 Milhões de Habitantes. \n");
+}
+
+if (Area != Area1) {
+    printf("A extensão do Brasil é de 8.510.000 km² \n");
+} else {
+    printf("A extensão da Argentina é de 2.780.000 km² \n");
+}
+
+if (Pib > Pib1) {
+    printf("O Brasil tem o PIB de 2.174 Trilhos USD. \n");
+} else {
+    print("A Argentina tem o PIB de 646.7 Bilhões USD. \n");
+}
+
+if (Area > Area1) {
+    printf("O Brasil vence por maior extenção e PIB! \n");
+} else {
+    printf("A Argentina vence por maior extensão e PIB! \n");
+}
+
+
+return 0;
+
+}
