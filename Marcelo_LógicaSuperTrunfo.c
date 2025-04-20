@@ -10,7 +10,7 @@ int main() {
     char Estado[30] = "Pernambuco";
     float Populacao = 211.1;
     float Area = 8.510000;
-    float Pib = 2.1740;
+    float Pib = 21740.00;
     int PontosTuristicos = 335;
 
         // Dados da Argentina
@@ -51,9 +51,9 @@ int main() {
     }
 
     if (Pib > Pib1) {
-        printf("O PIB do Brasil é de 2,174 trilhões USD\n");
+        printf("O PIB do Brasil é de 2.174,000 trilhões USD\n");
     } else {
-        printf("O PIB da Argentina é de 646,1 bilhões USD\n");
+        printf("O PIB da Argentina é de 646,100 bilhões USD\n");
     }
 
     if (Area > Area1) {
